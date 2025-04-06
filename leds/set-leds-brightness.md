@@ -22,7 +22,6 @@ SET_LEDS_BRIGHTNESS:<BRIGHTNESS>
 
 ### Set the LEDs brightness at 50%
 
-```javascript
-SET_LEDS_BRIGHTNESS:50
-```
+<pre class="language-javascript"><code class="lang-javascript"><strong>SET_LEDS_BRIGHTNESS:50
+</strong></code></pre>
 
