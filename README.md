@@ -14,7 +14,7 @@ This guide will walk you through the setup process and explain how to send and r
 
 * A computer (Windows/macOS/Linux)
 * A USB-to-Serial adapter or a direct USB connection to AstroBOX
-* A terminal program (e.g., [PuTTY](https://www.putty.org/), CoolTerm, MobaXTerm, or Arduino Serial Monitor from Arduino IDE)
+* A terminal program (e.g., [PuTTY](https://www.putty.org/), [MobaXTerm](https://mobaxterm.mobatek.net/), or Arduino Serial Monitor from [Arduino IDE](https://www.arduino.cc/en/software))
 * AstroBOX firmware installed on the ESP8266
 * Serial baudrate: **115200**
 
