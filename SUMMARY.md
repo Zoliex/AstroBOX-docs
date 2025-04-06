@@ -1,11 +1,13 @@
 # Table of contents
 
+* [👑 Get started](README.md)
+
 ## Commands
 
-* [🧠 System](README.md)
+* [🧠 System](<README (1).md>)
   * [🧠 Restart system](commands/system/restart-system.md)
-* [💨 Fan](<README (1).md>)
-  * [💨 Set fan speed](<README (1) (1).md>)
+* [💨 Fan](<README (1) (1).md>)
+  * [💨 Set fan speed](<README (1) (1) (1).md>)
 
 ***
 
