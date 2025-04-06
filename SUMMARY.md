@@ -2,7 +2,8 @@
 
 ## Commands
 
-* [💨 Set fan speed](README.md)
+* [💨 Fan](README.md)
+  * [💨 Set fan speed](commands/fan/set-fan-speed.md)
 
 ***
 
