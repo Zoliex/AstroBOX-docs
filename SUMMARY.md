@@ -3,7 +3,7 @@
 ## Commands
 
 * [💨 Fan](README.md)
-  * [💨 Set fan speed](commands/fan/set-fan-speed.md)
+  * [💨 Set fan speed](<README (1).md>)
 
 ***
 
@@ -19,3 +19,7 @@
 
 * [🌍 GPS](gps/README.md)
   * [🌍 GPS position](events/gps-position.md)
+* [💻 Touchscreen](touchscreen/README.md)
+  * [💻 Screen touched](touchscreen/screen-touched.md)
+  * [💻 Screen released](touchscreen/screen-released.md)
+  * [💻 Screen touched >5s](touchscreen/screen-touched-greater-than-5s.md)
