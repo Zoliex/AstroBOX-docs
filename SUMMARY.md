@@ -2,8 +2,10 @@
 
 ## Commands
 
-* [💨 Fan](README.md)
-  * [💨 Set fan speed](<README (1).md>)
+* [🧠 ESP](README.md)
+  * [🧠 Restart system](commands/esp/restart-system.md)
+* [💨 Fan](<README (1).md>)
+  * [💨 Set fan speed](<README (1) (1).md>)
 
 ***
 
@@ -12,6 +14,9 @@
   * [💡 Toggle leds state](leds/toggle-leds-state.md)
   * [💡 Set leds brightness](leds/set-leds-brightness.md)
   * [💡 Set leds color](leds/set-leds-color.md)
+* [💻 Touchscreen](touchscreen/README.md)
+  * [💻 Toggle screen backlight state](touchscreen/toggle-screen-backlight-state.md)
+  * [💻 Set screen backlight state](touchscreen/set-screen-backlight-state.md)
 
 ## Events
 
@@ -19,7 +24,7 @@
 
 * [🌍 GPS](gps/README.md)
   * [🌍 GPS position](events/gps-position.md)
-* [💻 Touchscreen](touchscreen/README.md)
-  * [💻 Screen touched](touchscreen/screen-touched.md)
-  * [💻 Screen released](touchscreen/screen-released.md)
-  * [💻 Screen touched >5s](touchscreen/screen-touched-greater-than-5s.md)
+* [💻 Touchscreen](touchscreen-1/README.md)
+  * [💻 Screen touched](touchscreen-1/screen-touched.md)
+  * [💻 Screen released](touchscreen-1/screen-released.md)
+  * [💻 Screen touched >5s](touchscreen-1/screen-touched-greater-than-5s.md)

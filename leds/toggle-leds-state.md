@@ -12,13 +12,13 @@ TOGGLE_LEDS_STATE
 
 ## Arguments
 
-There are no arguments for this function.
+There are no arguments for this command.
 
 ## Examples
 
 ### Toggle the leds state
 
 ```javascript
-TOGGLE_LEDS
+TOGGLE_LEDS_STATE
 ```
 
