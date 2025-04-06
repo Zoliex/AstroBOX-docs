@@ -21,7 +21,6 @@ GPS:<LAT>;<LON>;<ALT>;<SATS>;<DATETIME>
 | ALT           | Altitude (in m)                    | float |
 | SATS          | Current connected satellites       | int   |
 | DATETIME      | Unix current date and time (GMT+0) | date  |
-|               |                                    |       |
 
 ## Examples
 
