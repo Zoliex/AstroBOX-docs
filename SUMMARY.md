@@ -2,8 +2,8 @@
 
 ## Commands
 
-* [🧠 ESP](README.md)
-  * [🧠 Restart system](commands/esp/restart-system.md)
+* [🧠 System](README.md)
+  * [🧠 Restart system](commands/system/restart-system.md)
 * [💨 Fan](<README (1).md>)
   * [💨 Set fan speed](<README (1) (1).md>)
 
