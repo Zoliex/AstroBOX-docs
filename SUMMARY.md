@@ -17,4 +17,4 @@
 ***
 
 * [🌍 GPS](gps/README.md)
-  * [🌍 GPS position](gps/gps-position.md)
+  * [🌍 GPS position](events/gps-position.md)
