@@ -12,7 +12,7 @@ description: >-
 GPS:<LAT>;<LON>;<ALT>;<SATS>;<DATETIME>
 ```
 
-## Arguments
+### Arguments
 
 | Argument name | Description                        | Type  |
 | ------------- | ---------------------------------- | ----- |
@@ -24,7 +24,7 @@ GPS:<LAT>;<LON>;<ALT>;<SATS>;<DATETIME>
 
 ## Examples
 
-### A frame sent by a GPS located in Paris on 6 April 2024 at 13h 01 min 45s with 8 satellites connected and at an altitude of 35.1m
+The example below is a frame sent by a GPS located in Paris on 6 April 2024 at 13h 01 min 45s with 8 satellites connected and at an altitude of 35.1m
 
 ```javascript
 GPS:48.866667;2.333333;35.1;8;1743937305

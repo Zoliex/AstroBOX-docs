@@ -40,7 +40,7 @@ AstroBOX uses a simple ASCII-based command protocol over serial. All commands ar
 
 AstroBOX requires a `KEEP_ALIVE` command to be sent **every second** to remain in **remote control mode**. If the keep-alive signal is not received within 3 seconds, it will enter **manual mode**, allowing local control via buttons or touch screen.
 
-**KEEP\_ALIVE command:**
+**KEEP\_ALIVE command:c**
 
 ```
 KEEP_ALIVE
@@ -83,7 +83,9 @@ Here's what a session might look like in practice:
 
 ```
 TOUCH_CLICK:2329;2122;1104
+FRAME_RECEIVED:TOUCH_CLICK:2329;2122;1104
 TOUCH_RELEASE:2322;2081;902
+FRAME_RECEIVED:TOUCH_RELEASE:2322;2081;902
 ```
 
 ***
@@ -91,6 +93,7 @@ TOUCH_RELEASE:2322;2081;902
 ### ⚠️ Important Notes
 
 * You **must send `KEEP_ALIVE` every second** or AstroBOX will stop listening to commands and switch to manual mode.
+* Every command should have a response associated with it, and every message returns : `FRAME_RECEIVED:<SENT_LINE>`&#x20;
 * Each command should be sent as a full line ( terminated).
 * Avoid sending malformed or partial commands, as they may be ignored.
 
@@ -131,5 +134,7 @@ while True:
 If you're having trouble communicating with AstroBOX, check the following:
 
 * Is the baudrate set to 115200?
+* You received the `ERROR:ASTROBOX_NOT_IN_REMOTE_MODE` message : have you sent a `KEEP_ALIVE`  command every second ?
+* You received the `ERROR:UNKNOWN_COMMAND;<COMMAND_NAME>` message : have you sent a registered command ?
 * Are commands correctly terminated with `\n` or `\r` ?
 * Are you sending `KEEP_ALIVE` every second?

@@ -10,7 +10,7 @@ description: Every time the user touch the screen, this event is fired
 TOUCH_CLICK:<POS_X>;<POS_Y>;<POS_Z>
 ```
 
-## Arguments
+### Arguments
 
 | Argument name | Description                 | Type | Possibilities |
 | ------------- | --------------------------- | ---- | ------------- |

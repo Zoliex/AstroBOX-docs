@@ -1,15 +1,15 @@
 ---
 description: >-
-  Set the current color of LEDs (with fade between new color and old color). The
-  new color must be sent as an RGB 8bit value.
+  Set the default color of LEDs at startup. The new color must be sent as an RGB
+  8bit value. The color of the LEDs will not change by using this command.
 ---
 
-# 💡 Set leds color
+# 💡 Set default leds color
 
 ## Command
 
 ```javascript
-SET_LEDS_COLOR:<RED>;<GREEN>;<BLUE>
+SET_DEFAULT_LEDS_COLOR:<RED>;<GREEN>;<BLUE>
 ```
 
 ### Arguments
@@ -25,7 +25,7 @@ SET_LEDS_COLOR:<RED>;<GREEN>;<BLUE>
 The response of this command is :
 
 ```javascript
-RESPONSE:SET_LEDS_COLOR;<RED>;<GREEN>;<BLUE>
+RESPONSE:SET_DEFAULT_LEDS_COLOR;<RED>;<GREEN>;<BLUE>
 ```
 
 ### Arguments
@@ -41,7 +41,7 @@ RESPONSE:SET_LEDS_COLOR;<RED>;<GREEN>;<BLUE>
 ### Turn the LEDs red
 
 ```javascript
-SET_LEDS_COLOR:255;0;0
+SET_DEFAULT_LEDS_COLOR:255;0;0
 ```
 
 ### Turn the LEDs orange

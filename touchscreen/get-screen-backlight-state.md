@@ -1,13 +1,15 @@
 ---
-description: Toggle the leds located on top of the screen to power them on/off
+description: >-
+  You can easily get the state of the backlight of the screen by using this
+  command
 ---
 
-# 💡 Toggle leds state
+# 💻 Get screen backlight state
 
 ## Command
 
 ```javascript
-TOGGLE_LEDS_STATE
+GET_BACKLIGHT_STATE
 ```
 
 ### Arguments
@@ -19,7 +21,7 @@ There are no arguments for this command.
 The response of this command is :
 
 ```javascript
-RESPONSE:TOGGLE_LEDS_STATE;<STATE>
+RESPONSE:GET_BACKLIGHT_STATE;<STATE>
 ```
 
 ### Arguments
@@ -30,9 +32,8 @@ RESPONSE:TOGGLE_LEDS_STATE;<STATE>
 
 ## Examples
 
-### Toggle the leds state
+### Get the current backlight state
 
 ```javascript
-TOGGLE_LEDS_STATE
+GET_BACKLIGHT_STATE
 ```
-

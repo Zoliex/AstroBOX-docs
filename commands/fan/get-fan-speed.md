@@ -1,13 +1,15 @@
 ---
-description: Toggle the leds located on top of the screen to power them on/off
+description: >-
+  You can get the fan speed of the box by sending the command to the
+  microcontroller
 ---
 
-# 💡 Toggle leds state
+# 💨 Get fan speed
 
 ## Command
 
 ```javascript
-TOGGLE_LEDS_STATE
+GET_FAN_SPEED
 ```
 
 ### Arguments
@@ -19,20 +21,19 @@ There are no arguments for this command.
 The response of this command is :
 
 ```javascript
-RESPONSE:TOGGLE_LEDS_STATE;<STATE>
+RESPONSE:GET_FAN_SPEED;<SPEED>
 ```
 
 ### Arguments
 
 | Argument name | Type | Possibilities |
 | ------------- | ---- | ------------- |
-| STATE         | bool | 0 or 1        |
+| SPEED         | int  | 0%-100%       |
 
 ## Examples
 
-### Toggle the leds state
+### Get the current fan speed
 
 ```javascript
-TOGGLE_LEDS_STATE
+GET_FAN_SPEED
 ```
-

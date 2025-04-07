@@ -12,11 +12,25 @@ description: >-
 SET_LEDS_STATE:<STATE>
 ```
 
-## Arguments
+### Arguments
 
 | Argument name | Type | Possibilities |
 | ------------- | ---- | ------------- |
-| STATE         | BOOL | 0 or 1        |
+| STATE         | bool | 0 or 1        |
+
+## Response
+
+The response of this command is :
+
+```javascript
+RESPONSE:SET_LEDS_STATE;<STATE>
+```
+
+### Arguments
+
+| Argument name | Type | Possibilities |
+| ------------- | ---- | ------------- |
+| STATE         | bool | 0 or 1        |
 
 ## Examples
 

@@ -12,7 +12,7 @@ description: >-
 TOUCH_LONG_CLICK:<POS_X>;<POS_Y>;<POS_Z>
 ```
 
-## Arguments
+### Arguments
 
 | Argument name | Description                      | Type | Possibilities |
 | ------------- | -------------------------------- | ---- | ------------- |

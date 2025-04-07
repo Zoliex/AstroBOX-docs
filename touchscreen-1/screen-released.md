@@ -10,7 +10,7 @@ description: Every time the user release the screen, this event is fired
 TOUCH_RELEASE:<POS_X>;<POS_Y>;<POS_Z>
 ```
 
-## Arguments
+### Arguments
 
 | Argument name | Description                   | Type | Possibilities |
 | ------------- | ----------------------------- | ---- | ------------- |

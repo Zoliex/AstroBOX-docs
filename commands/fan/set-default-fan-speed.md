@@ -1,15 +1,15 @@
 ---
 description: >-
-  You can set the fan speed of the box by sending the command to the
-  microcontroller
+  You can set the default fan speed at startup of the box by sending the command
+  to the microcontroller. The speed will not change directly using this command.
 ---
 
-# 💨 Set fan speed
+# 💨 Set default fan speed
 
 ## Command
 
 ```javascript
-SET_FAN_SPEED:<SPEED>
+SET_DEFAULT_FAN_SPEED:<SPEED>
 ```
 
 ### Arguments
@@ -23,7 +23,7 @@ SET_FAN_SPEED:<SPEED>
 The response of this command is :
 
 ```javascript
-RESPONSE:SET_FAN_SPEED;<SPEED>
+RESPONSE:SET_DEFAULT_FAN_SPEED;<SPEED>
 ```
 
 ### Arguments
@@ -34,9 +34,9 @@ RESPONSE:SET_FAN_SPEED;<SPEED>
 
 ## Examples
 
-### Set the fan speed at 50%
+### Set the default fan speed at 50%
 
 ```javascript
-SET_FAN_SPEED:50
+SET_DEFAULT_FAN_SPEED:50
 ```
 
